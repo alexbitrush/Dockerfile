@@ -3,6 +3,7 @@
 : "${DBNAME:=racktables}"
 : "${DBHOST:=mariadb}"
 : "${DBUSER:=racktables}"
+: "${DBPASS:=Solomon}"
 
 if [ ! -e /opt/racktables/wwwroot/inc/secret.php ]; then
     cat > /opt/racktables/wwwroot/inc/secret.php <<EOF
